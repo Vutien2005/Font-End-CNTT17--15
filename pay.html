@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng của bạn</title>
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card cart">
+          <header>
+            <h1>Giỏ Hàng</h1>
+        </header>
+        <div class="product">
+            <img width="100%"  src="https://blogcdn.muaban.net/wp-content/uploads/2019/03/BMW-HP4.jpg" alt="Product Image">
+            <div class="details">
+                <h2>Xe phân khối lớn - BWM - Mã lực 80000cc - 01</h2>
+                <label for="size">Động cơ:</label>
+                <select id="size">
+                    <option value="1 xi lanh">1 xi lanh</option>
+                    <option value="4 xi lanh">4 xi lanh</option>
+                    <option value="8 xi lanh">8 xi lanh</option>
+                    <option value="16 xin lanh">16 xi lanh</option>
+                </select>
+                <label for="color">Màu Sắc:</label>
+                <select id="color">
+                    <option value="red">Đỏ</option>
+                    <option value="blue">Xanh</option>
+                    <option value="green">Xanh lá</option>
+                    <option value="black">Đen</option>
+                </select>
+                <label for="price">Giá:</label>
+                <select id="price">
+                  <option value="700.000.000">700.000.000</option>
+                  <option value="600.000.000">600.000.000</option>
+                  <option value="500.000.000">500.000.000</option>
+                  <option value="1.200.000.000">1.200.000.000</option>
+                </select>
+                <button onclick="addToCart()">Thêm vào Giỏ</button>
+            </div>
+        </div>
+        <div class="checkout">
+            <h2>Thông Tin Thanh Toán</h2>
+            <div id="cart-info"></div>
+        </div>
+    </div>
+    <script src="pay.js"></script>
+      
+        
+        </div>
+      </div>
+</body>
+</html>
